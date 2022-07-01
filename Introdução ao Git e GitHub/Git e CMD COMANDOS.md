@@ -39,7 +39,7 @@
 + `git remote add origin (URL)` -> adiciona a "nuvem" github ao qual o projeto atual irá ser pushado
 >*obs: origin é o apelido desse repositório online*
 + `git push origin master` -> pusha para o origin na branch master
-+ `git pull origin master` -> atualiza o repositório local de acordo com o repositório remoto
++ `git pull origin master` 🔜 atualiza o repositório local de acordo com o repositório remoto
 
 ***
 # FLAGS
