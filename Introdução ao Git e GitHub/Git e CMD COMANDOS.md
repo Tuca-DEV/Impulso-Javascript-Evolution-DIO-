@@ -40,6 +40,11 @@
 >*obs: origin é o apelido desse repositório online*
 + `git push origin master` ⏩ pusha para o origin na branch master
 + `git pull origin master` ⏩ atualiza o repositório local de acordo com o repositório remoto
++ `git checkout (nome-da-branch)` ⏩ muda o repositório e o terminal para a branch solicitada
++ `git branch -d (nome-da-branch)` ⏩ exclui uma branch
++ `git branch` ⏩ mostra as branches
++ `git merge (nome-da-branch)` ⏩ faz um merge da branch selecionada com a branch principal(main)
++ `git fetch origin` ⏩ mostra todos os objetos que estão no github mas não no repositório local
 
 ***
 # FLAGS
@@ -47,3 +52,4 @@
 + -a ⏩ mostra pastas ocultas. Ex: ls -a -> mostra as pastas ocultas dentro do diretório atual
 + --global ⏩ configuração será para todos os repositórios
 + --unset ⏩ reinicia para null
++ --allow-unrelated-histories ⏩ permite o merge/push de um repositório que tenha históricos e commits diferentes do repositório online
